@@ -1,0 +1,110 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "811C0EB5-C4A9-4CC3-9863-2AB1E2DB8AE9",
+			"type": "PlaneGeometry",
+			"width": 1,
+			"height": 1,
+			"widthSegments": 0,
+			"heightSegments": 0
+		},
+		{
+			"uuid": "D31F1F8B-597D-4112-B377-FB7FC1558C91",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 0,
+			"heightSegments": 0,
+			"depthSegments": 0
+		},
+		{
+			"uuid": "6A8B3DAC-0031-4A38-8974-060253D0758C",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "DDD0623E-5DC6-40BC-8DF4-D4EB8C154E41",
+			"type": "MeshBasicMaterial",
+			"name": "Grass",
+			"color": 32512,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"skinning": false,
+			"morphTargets": false
+		},
+		{
+			"uuid": "07972491-9FFB-4A9A-B61C-63E82B5D260C",
+			"type": "MeshBasicMaterial",
+			"name": "Wood",
+			"color": 6566400,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"skinning": false,
+			"morphTargets": false
+		},
+		{
+			"uuid": "656E11EA-6379-4121-A27C-966614536B12",
+			"type": "MeshBasicMaterial",
+			"name": "Leave",
+			"color": 65280,
+			"side": 2,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"skinning": false,
+			"morphTargets": false
+		}],
+	"object": {
+		"uuid": "908C31BB-657B-44E4-9410-E314E1633941",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,2.220446049250313e-16,1,0,0,-1,2.220446049250313e-16,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "DDF5957D-F860-453E-9EB8-40E02140F453",
+				"type": "Group",
+				"name": "Thing",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"children": [
+					{
+						"uuid": "57C63314-92EA-47FF-B90F-E28DCE8D75CA",
+						"type": "Mesh",
+						"name": "Ground",
+						"matrix": [2,0,0,0,0,4.440892098500626e-16,-2,0,0,1,2.220446049250313e-16,0,0,0,0,1],
+						"geometry": "811C0EB5-C4A9-4CC3-9863-2AB1E2DB8AE9",
+						"material": "DDD0623E-5DC6-40BC-8DF4-D4EB8C154E41"
+					},
+					{
+						"uuid": "397C91DC-DFF5-4EEE-9716-8043F1FB741D",
+						"type": "Mesh",
+						"name": "Log",
+						"matrix": [0.5,0,0,0,0,2,0,0,0,0,0.5,0,0,1,0,1],
+						"geometry": "D31F1F8B-597D-4112-B377-FB7FC1558C91",
+						"material": "07972491-9FFB-4A9A-B61C-63E82B5D260C"
+					},
+					{
+						"uuid": "DAF22506-4BFF-408F-A5B5-A81690680AEA",
+						"type": "Mesh",
+						"name": "Leaves",
+						"matrix": [1.5,0,0,0,0,1.5,0,0,0,0,1.5,0,0,2.75,0,1],
+						"geometry": "6A8B3DAC-0031-4A38-8974-060253D0758C",
+						"material": "656E11EA-6379-4121-A27C-966614536B12"
+					}]
+			}],
+		"background": 11184810
+	}
+}
